@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Infinite Remake",
+  "version": "1.0.0",
+  "description": "Challenge Wheel with Difficulty Tiers, Speedrun Timer, Achievements, Trophy Cards, Custom Workspace Lab, Particles, Confetti, Backups, and MP3 Radio for Infinite Craft",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://neal.fun/infinite-craft*",
+        "*://*.neal.fun/infinite-craft*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
