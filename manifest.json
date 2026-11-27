@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Infinite Remake",
-  "version": "1.0.0",
-  "description": "Challenge Wheel with Difficulty Tiers, Speedrun Timer, Achievements, Trophy Cards, Custom Workspace Lab, Particles, Confetti, Backups, and MP3 Radio for Infinite Craft",
+  "version": "1.0.1",
+  "description": "Shop with Craft Coins, Daily Chest, Combo Multiplier, Alchemist XP, Recipe Pinboard, Challenge Wheel, Speedrun Timer, Achievements, Trophy Cards, Custom Workspace Lab, Particles, Backups & MP3 Radio for Infinite Craft",
   "permissions": ["storage"],
   "icons": {
     "16": "icon.png",
